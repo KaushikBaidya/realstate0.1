@@ -37,7 +37,7 @@ const PropertyDetails = ({
           BDT {millify(price)} {rentFrequency && `/${rentFrequency}`}
         </Text>
         <Spacer />
-        <Avatar size="sm" src={agency?.logo?.url}></Avatar>
+        {/* <Avatar size="sm" src={agency?.logo?.url}></Avatar> */}
       </Flex>
       <Flex
         alignItems="center"

@@ -44,7 +44,7 @@ const Property = ({
             <Box paddingRight="3" color="green.400">
               {isVerified && <GoVerified />}
             </Box>
-            <Text fontWeight="bold" fontSize="lg">
+            <Text fontWeight="bold" fontSize="lg" color="blue.400">
               BDT {millify(price)}
               {rentFrequency && `/${rentFrequency}`}
             </Text>
@@ -58,7 +58,7 @@ const Property = ({
           p="1"
           justifyContent="space-between"
           w="250px"
-          color="blue.400"
+          color="orange.400"
         >
           {rooms}
           <FaBed /> | {baths} <FaBath /> | {millify(area)} sqft <BsGridFill />
